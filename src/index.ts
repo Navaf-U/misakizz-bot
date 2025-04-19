@@ -3,6 +3,9 @@ import { token } from './config/botConfig'
 import { loadCommands } from './commands/commandLoader'
 import { handleInteraction } from './events/interactionCreate'
 import { Command } from './types/type';
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const client = new Client ({
     intents:[
