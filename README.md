@@ -1,13 +1,26 @@
 misakizz Discord Bot
 
-A mystical and cryptic Discord bot designed to offer dark, poetic, and ominous responses using generative AI. The bot responds to user prompts with riddle-like answers and shadowy wisdom, invoking the power of an ancient oracle trapped between worlds. Built with TypeScript and utilizing the Gemini AI model, the bot offers an engaging and mysterious interaction for Discord users.
+misakizz is a mystical and enigmatic Discord bot that channels the essence of an ancient oracle, lost between realms. Designed to respond with poetic riddles, cryptic wisdom, and hauntingly beautiful language, it offers users an immersive, otherworldly experience.
 
-Features:
+Crafted with TypeScript and powered by Google Gemini AI, misakizz brings an eerie charm to every interaction—perfect for dark-themed servers, roleplaying worlds, or those who simply seek the arcane.
 
-Cryptic Responses: Offers dark, poetic, and mysterious replies to user queries.
 
-Slash Command: /dark-chat allows users to converse with the oracle.
+---
 
-AI Integration: Uses Google Gemini AI for generating responses based on user input.
+Features
 
-Customizable Prompts: Tailor the oracle's speech to fit various themes and moods.
+Cryptic AI Responses
+Engages users with dark, poetic, and riddle-like answers, echoing the voice of a forgotten oracle.
+
+Slash Command: /dark-chat
+Summon the oracle with a single command and receive its haunting counsel.
+
+AI Integration
+Utilizes Google's Gemini model to generate intelligent and thematic replies based on user prompts.
+
+Customizable Themes
+Easily tailor the tone and mysticism of the oracle's speech to suit different moods, settings, or narratives.
+
+
+
+---
