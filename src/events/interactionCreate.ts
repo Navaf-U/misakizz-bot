@@ -1,8 +1,5 @@
-import { Command } from '../types/type';
-import {
-  ChatInputCommandInteraction,
-  CommandInteraction,
-} from 'discord.js';
+import { Command } from "../types/type";
+import { ChatInputCommandInteraction, CommandInteraction } from "discord.js";
 
 export async function handleInteraction(
   interaction: CommandInteraction,
@@ -19,12 +16,12 @@ export async function handleInteraction(
       } catch (error) {
         console.error(error);
         await interaction.reply({
-          content: 'There was an error while executing this command!',
+          content: "There was an error while executing this command!",
           ephemeral: true,
         });
       }
     }
   } else {
-    console.log('Received non-chat command:', interaction.commandType);
+    console.log("Received non-chat command:", interaction.commandType);
   }
 }
