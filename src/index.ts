@@ -24,13 +24,13 @@ client.once("ready", async () => {
 
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isCommand()) return;
-
   await handleInteraction(interaction, commands);
 });
 
 const token = process.env.BOT_TOKEN;
 if (!token) {
   throw new Error("Bot token is missing!");
+
 }
 
 client.login(token);
