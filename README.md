@@ -18,9 +18,6 @@ Summon the oracle with a single command and receive its haunting counsel.
 AI Integration
 Utilizes Google's Gemini model to generate intelligent and thematic replies based on user prompts.
 
-Customizable Themes
-Easily tailor the tone and mysticism of the oracle's speech to suit different moods, settings, or narratives.
-
 
 
 ---
